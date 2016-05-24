@@ -7,6 +7,32 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Russo One', sans-serif;
 }
+/* social icons set */
+.fa-facebook-official {
+  color: rgba(53,80,136,0.8);
+}
+.fa-facebook-official:hover {
+  color: rgba(53,80,136,1);
+}
+.fa-google-plus-official {
+  color: rgba(219,68,55,0.8) ;
+}
+.fa-google-plus-official:hover {
+  color: rgba(219,68,55,1) ;
+}
+.fa-youtube-square {
+  color: rgba(179,18,23,0.8) ;
+}
+.fa-youtube-square:hover {
+  color: rgba(179,18,23,1) ;
+}
+.fa-vk {
+  color: rgba(55,100,193,0.8) ;
+}
+.fa-vk:hover {
+  color: rgba(55,100,193,1) ;
+}
+/* social icons set end */
 h4>a {
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
@@ -44,4 +70,8 @@ a:hover {
   padding-bottom: 10px;
   margin: 0;
   margin-bottom: 15px;
+}
+.ftList {
+  list-style: none;
+  text-align: left;
 }
