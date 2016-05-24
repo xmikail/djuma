@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto Slab',serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0,0,0,0.8);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Russo One', sans-serif;
+}
+h4>a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+}
+h4#leftside {
+  padding-bottom: 2px;
+  border-bottom: 4px solid rgba(250,180,10,1) !important;
+}
+.navbar {
+  border-radius: 0;
+}
+.navbar-inverse .navbar-nav > .active>a {
+  background-color: #222 !important;
+  border-bottom: 4px solid rgba(250,180,10,1) !important;
+}
+.nav li a {
+  border-bottom: 4px solid rgba(250,180,10,0);
+}
+.nav li a:hover {
+  border-bottom: 4px solid rgba(250,180,10,1) !important;
+}
+.btn {
+  border-radius: 0;
+}
+a {
+  color: rgba(0,0,0,0.8);
+}
+a:hover {
+  text-decoration: none;
+  color: rgba(0,0,0,1);
+}
+.thumbnail, .media {
+  border-radius: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  margin: 0;
+  margin-bottom: 15px;
+}
